@@ -27,7 +27,7 @@ from teracwa import TeRACWA
 # create an instance of TeRACWA with default run parameters
 my_teracwa = TeRACWA(slc_directory='/path/to/slc')
 
-# run TeRAWA wrapper
+# run TeRACWA wrapper
 my_teracwa.run()
 ``` 
 

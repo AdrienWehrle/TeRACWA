@@ -22,7 +22,7 @@ sys.path.append('/path/to/gpritools')
 The easiest and most direct way to run TeRACWA is to import it as a module and run the wrapper method with the default arguments.
 
 ``` python
-import TeRACWA
+from teracwa import TeRACWA
 
 # create an instance of TeRACWA with default run parameters
 my_teracwa = TeRACWA(slc_directory='/path/to/slc')
@@ -36,7 +36,7 @@ In this case, the different steps of TeRACWA are run with the parameters describ
 The different steps can also be be run individually and some intermediate results affected to a local variable. See example below where the raw TeRACWA results are stored in the ```raw_power_maxima``` variable as a two-dimensional ```numpy.ndarray```.
 
 ``` python
-import TeRACWA
+from teracwa import TeRACWA
 
 # create a TeRACWA instance
 my_teracwa = TeRACWA(slc_directory='/path/to/slc')
